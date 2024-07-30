@@ -7,9 +7,6 @@ export default defineConfig({
     title: 'React Starter',
   },
   output: {
-    distPath: {
-      root: 'build',
-    },
     assetPrefix: '/ace-react-boilerplate/',
   },
 });
