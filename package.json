@@ -21,6 +21,7 @@
     "@radix-ui/react-tabs": "^1.1.0",
     "@tanstack/react-router": "^1.45.14",
     "@tanstack/router-devtools": "^1.45.14",
+    "@types/lint-staged": "^13.3.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.417.0",
@@ -37,7 +38,14 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "husky": "^9.1.4",
+    "lint-staged": "^15.2.7",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
+      "biome format --write --no-errors-on-unmatched",
+      "biome lint --write --no-errors-on-unmatched"
+    ]
   }
 }
