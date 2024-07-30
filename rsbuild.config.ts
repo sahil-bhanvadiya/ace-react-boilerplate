@@ -6,4 +6,9 @@ export default defineConfig({
   html: {
     title: 'React Starter',
   },
+  output: {
+    distPath: {
+      root: 'build',
+    },
+  },
 });
