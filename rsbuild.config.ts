@@ -4,9 +4,6 @@ import { pluginReact } from '@rsbuild/plugin-react';
 export default defineConfig({
   plugins: [pluginReact()],
   html: {
-    title: 'React Starter',
-  },
-  output: {
-    assetPrefix: '/ace-react-boilerplate/',
+    title: 'Ace React Boilerplate',
   },
 });

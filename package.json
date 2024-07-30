@@ -1,7 +1,6 @@
 {
   "name": "ace-react-boilerplate",
   "private": false,
-  "homepage": "https://sahil-bhanvadiya.github.io/ace-react-boilerplate",
   "version": "1.0.0",
   "scripts": {
     "build": "rsbuild build",
@@ -9,9 +8,7 @@
     "dev": "rsbuild dev --open",
     "format": "biome format --write",
     "preview": "rsbuild preview",
-    "prepare": "husky",
-    "predeploy": "pnpm run build",
-    "deploy": "gh-pages -d build"
+    "prepare": "husky"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
@@ -40,7 +37,6 @@
     "@rsbuild/plugin-react": "1.0.1-beta.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "gh-pages": "^6.1.1",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.7",
     "tailwindcss": "^3.4.7",
